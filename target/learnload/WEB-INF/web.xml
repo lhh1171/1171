@@ -1,0 +1,23 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>upld</servlet-name>
+    <servlet-class>Sevlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>upld</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>Download</servlet-name>
+  <servlet-class>Sevlet.Download</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/down</url-pattern>
+  </servlet-mapping>
+</web-app>
